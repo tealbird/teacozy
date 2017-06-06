@@ -1,0 +1,129 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  opacity: 0.9;
+  top: 0px;
+}
+
+#logo {
+  margin-left: 10px;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav a {
+  color: seashell;
+}
+
+nav li{
+  display: inline;
+  padding: 20px;
+}
+
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 0px;
+}
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#mission-banner {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.row-of-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+}
+
+#tea-of-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin-left: 100px;
+}
+
+.labeled-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px 10px;
+}
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+  min-height: 500px;
+  width: 1200px;
+}
+
+.text-square {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  width: 1000px;
+}
+
+#copyright {
+  margin: 20px 20px;
+}
